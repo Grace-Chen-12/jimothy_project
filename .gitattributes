@@ -1,0 +1,4 @@
+# Keep LF line endings on scripts that run on the Linux cluster.
+# CRLF in a .sh file makes SLURM fail with "bad interpreter".
+*.sh text eol=lf
+*.py text eol=lf

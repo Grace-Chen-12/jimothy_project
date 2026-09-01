@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Data and imaging outputs -- keep large/derived files out of git
+*.zarr/
+*.zarr.zip
+*.tif
+*.tiff
+*.ome.tif
+*.ome.tiff
+*.geojson
+*.csv
+*.pickle
+*.pkl
+
+# VALIS / cluster run outputs
+registered_slides/
+valis_results/
+staged/
+staged_rgb/
+logs/
+*.out
+*.err
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
